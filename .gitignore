@@ -1,0 +1,22 @@
+# 运行时数据
+data/
+*.db
+*.db-wal
+*.db-shm
+*.log
+
+# 离线 OCR 依赖（253MB，按需安装，见 README）
+app/vendor/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

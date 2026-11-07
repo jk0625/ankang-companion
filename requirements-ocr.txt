@@ -1,0 +1,6 @@
+# 可选：离线拍照识图依赖
+# 安装后 app/server.py 启动时会自动使用；不装也能跑，只是拍照识别降级为手动填写。
+#   pip install -r requirements-ocr.txt
+rapidocr-onnxruntime>=1.4.0
+opencv-python>=4.9
+numpy>=1.26
